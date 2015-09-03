@@ -398,7 +398,9 @@ void in_received_handler(DictionaryIterator *iter, void *context){
 }
 
 void on_animation_stopped(Animation *anim, bool finished, void *context){
+#if PBL_SDK_2
 	property_animation_destroy((PropertyAnimation*) anim);
+#endif
 	
 	if(current == LIST){
 		strcpy(mpaa_text, "");
@@ -445,13 +447,17 @@ static void draw_splash(Layer *layer, GContext* ctx){
 	
 	graphics_fill_rect(ctx, GRect(0,0,144,168), 0, GCornerNone);
 	
+#ifdef PBL_SDK_2
 	if(window_get_fullscreen(splash_window)){
 		graphics_draw_bitmap_in_rect(ctx, splash_logo, GRect(0,72-54,144,108));
 	}
 	else{
 		graphics_draw_bitmap_in_rect(ctx, splash_logo, GRect(0, 64-54, 144,108));
 	}
-	
+#else
+	graphics_draw_bitmap_in_rect(ctx, splash_logo, GRect(0,72-54,144,108));
+#endif
+
 	if(init_sent) graphics_draw_text(ctx, "Loading...", fonts_get_system_font(FONT_KEY_GOTHIC_14_BOLD), GRect(0,126, 144,32), GTextOverflowModeFill, GTextAlignmentCenter, NULL);
 }
 
@@ -618,10 +624,14 @@ void handle_init(void){
 	
 	my_window = window_create();
 	
+#if PBL_SDK_2
 	window_set_status_bar_icon(my_window, gbitmap_create_with_resource(RESOURCE_ID_STATUS));
-	
+#endif
+
 	splash_window = window_create();
+#if PBL_SDK_2
 	window_set_fullscreen(splash_window, true);
+#endif
 	window_set_click_config_provider(my_window, click_config);
 	
 	detail_window = window_create();
