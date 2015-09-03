@@ -3,8 +3,6 @@ Cherry Tomatoes app for Pebble
 
 [![Build Status](https://travis-ci.org/unwiredben/ravine-despoiler.svg)](https://travis-ci.org/unwiredben/cherry-tomatoes)
 
-![Screenshot](screenshot.png)
-
 This is the open source release of Cherry Tomatoes, a Pebble application using the
 Rotten Tomatoes API to give information about current and upcoming movies.
 
