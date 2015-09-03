@@ -1,0 +1,117 @@
+{
+    "appKeys": {
+        "DATA": 9000,
+        "boxScore0_audience": 601,
+        "boxScore0_critic": 101,
+        "boxScore1_audience": 611,
+        "boxScore1_critic": 111,
+        "boxScore2_audience": 621,
+        "boxScore2_critic": 121,
+        "boxScore3_audience": 631,
+        "boxScore3_critic": 131,
+        "boxScore4_audience": 641,
+        "boxScore4_critic": 141,
+        "boxScore5_audience": 651,
+        "boxScore5_critic": 151,
+        "boxScore6_audience": 661,
+        "boxScore6_critic": 161,
+        "boxScore7_audience": 671,
+        "boxScore7_critic": 171,
+        "boxScore8_audience": 681,
+        "boxScore8_critic": 181,
+        "boxScore9_audience": 691,
+        "boxScore9_critic": 191,
+        "boxTitle0": 100,
+        "boxTitle1": 110,
+        "boxTitle2": 120,
+        "boxTitle3": 130,
+        "boxTitle4": 140,
+        "boxTitle5": 150,
+        "boxTitle6": 160,
+        "boxTitle7": 170,
+        "boxTitle8": 180,
+        "boxTitle9": 190,
+        "mpaa": 300,
+        "openingScore0_audience": 501,
+        "openingScore0_critic": 1,
+        "openingScore1_audience": 511,
+        "openingScore1_critic": 11,
+        "openingScore2_audience": 521,
+        "openingScore2_critic": 21,
+        "openingScore3_audience": 531,
+        "openingScore3_critic": 31,
+        "openingScore4_audience": 541,
+        "openingScore4_critic": 41,
+        "openingTitle0": 0,
+        "openingTitle1": 10,
+        "openingTitle2": 20,
+        "openingTitle3": 30,
+        "openingTitle4": 40,
+        "runtime": 301,
+        "soonScore0_audience": 701,
+        "soonScore0_critic": 201,
+        "soonScore1_audience": 711,
+        "soonScore1_critic": 211,
+        "soonScore2_audience": 721,
+        "soonScore2_critic": 221,
+        "soonScore3_audience": 731,
+        "soonScore3_critic": 231,
+        "soonScore4_audience": 741,
+        "soonScore4_critic": 241,
+        "soonTitle0": 200,
+        "soonTitle1": 210,
+        "soonTitle2": 220,
+        "soonTitle3": 230,
+        "soonTitle4": 240,
+        "synopsis": 302
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "MathewReiss",
+    "longName": "Cherry Tomatoes",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/movie_status.png",
+                "name": "STATUS",
+                "type": "png"
+            },
+            {
+                "file": "images/unrated.png",
+                "name": "NA",
+                "type": "png"
+            },
+            {
+                "file": "images/bad icon.png",
+                "name": "BAD",
+                "type": "png"
+            },
+            {
+                "file": "images/good icon.png",
+                "name": "GOOD",
+                "type": "png"
+            },
+            {
+                "file": "images/rot icon.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/splah.png",
+                "name": "SPLASH",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Movies",
+    "uuid": "2ed93c01-2dda-4fdc-a8c4-f208df638824",
+    "versionCode": 1,
+    "versionLabel": "1.1",
+    "watchapp": {
+        "watchface": false
+    }
+}
