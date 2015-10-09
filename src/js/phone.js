@@ -8,7 +8,7 @@ var comingSoonData;
 
 // when building a version of this, replace this value with a valid API key
 // or calls to the Rotten Tomatoes API will fail.
-/  API keys can be requested at http://developer.rottentomatoes.com/
+//  API keys can be requested at http://developer.rottentomatoes.com/
 var API_KEY="INVALID";
 
 function HTTP_GET(call_type){
